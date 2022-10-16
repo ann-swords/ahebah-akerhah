@@ -5,12 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ahebah || Akerha</title>
+    <style>
+        #list li{display: inline; margin: 2px;}
+    </style>
 </head>
 
 <body>
     <header style="border-bottom: 5px solid black">
        <h1>Ahebah || Akerha</h1> 
     </header>
+    <ul id="list">
+        <li><a href='/ahebah/foods'>Favorite Foods</a></li>
+        <li><a href='/ahebah/animals'>Favorite Animals</a></li>
+        <li><a href='/akerha/movies'>Worst Movies</a></li>
+        <li><a href='/akerha/products'>Worst Products</a></li>
+      </ul>
+
     <% //body tah is where all thr other ejs contetnt will go %> 
     <%- body %> 
 </body>
